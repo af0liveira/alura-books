@@ -30,8 +30,33 @@
     display: none;
     position: absolute;
     top: 100%;
+    background-color: var(--bg-color-header);
+    width: 70vw;
+}
+
+.container__button {
+    display: none;
 }
 
 .container__button:checked ~ .menu-list {
     display: block;
+}
+
+.menu-list__title,
+.menu-list__item{
+    padding: 1rem 1.5rem;
+}
+
+.menu-list__title {
+    color: var(--menu-title-color);
+    font-weight: 700;
+}
+
+.menu-list__item__link {
+    background: var(--menu-item-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
 }
