@@ -1,0 +1,36 @@
+.banner {
+    background: var(--menu-item-color);
+    color: var(--bg-color-header);
+    text-align: center;
+    padding: 2rem 1.5rem;
+}
+
+.banner__title {
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.banner__par {
+    font-weight: 500;
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+.banner__search {
+    color: var(--bg-color-header);
+    width: 100%;
+    border: 1px solid var(--bg-color-header);
+    border-radius: 24px;
+    background-color: transparent;
+    padding: 0.6rem 1.5rem;
+}
+
+.banner__search::placeholder {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-align-last: center;
+    color: var(--bg-color-header);
+    background-image: url('../img/search.svg');
+    background-repeat: no-repeat;
+    background-position: 0;
+}
