@@ -21,6 +21,7 @@
 }
 
 .swiper-pagination {
+    --swiper-pagination-color: var(--menu-item-color);
     position: initial;
     margin: 0.5rem 0;
 }
