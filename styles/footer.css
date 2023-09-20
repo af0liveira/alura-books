@@ -1,0 +1,14 @@
+hr{
+    margin: 0;
+}
+.footer {
+    font-family: var(--main-font);
+    margin: 1rem auto 1.5rem 1.5rem;
+}
+
+.footer__par {
+    color: black;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: normal;
+}
