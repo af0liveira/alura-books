@@ -1,0 +1,26 @@
+.carousel {}
+
+.carousel__title {
+    color: var(--menu-title-color);
+    background-color: var(--bg-color-header);
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 1.25rem 0 0.5rem 0;
+}
+
+.swiper {
+    width: 100vw;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5rem 0;
+}
