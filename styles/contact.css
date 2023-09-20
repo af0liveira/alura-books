@@ -1,0 +1,49 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color-header);
+    padding: 1.5rem;
+    line-height: normal;
+    font-family: var(--main-font);
+}
+
+.contact__title,
+.contact__par {
+    background: var(--menu-item-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contact__title {
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.contact__par {
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+.contact__mail {
+    --empty: var(--bg-color-header);
+    width: inherit; 
+    background: linear-gradient(var(--empty), var(--empty)) padding-box,
+                var(--menu-item-color) border-box;
+    border: 1px solid transparent;
+    border-radius: 24px;
+    padding: 0.6rem 1.5rem;
+    /* background-position: 0; */
+    /* background-repeat: no-repeat; */
+}
+
+.contact__mail::placeholder {
+    color: #002f52;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 2rem;
+    background-image: url('../img/mail_black.svg');
+    background-repeat: no-repeat;
+}
