@@ -1,0 +1,74 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color-header);
+    margin: 1.25rem 0.8rem;
+    border-radius: 10px;
+    padding: 1rem;
+    font-family: var(--main-font);
+    gap: 0.5rem;
+}
+
+.card__content {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.card__info,
+.card__media {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+}
+
+.card__media {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__info__title {
+    color: var(--menu-title-color);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.card__info__book-title {
+    color: #002f52;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.card__info__par {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.card__media__img {}
+
+.card__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    align-items: center;
+    text-align: center;
+}
+
+.buttons__icon {
+    margin: 0 0.5rem;
+}
+
+.buttons__anchor {
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 2.2rem;
+    background-color: var(--menu-title-color);
+    color: var(--bg-color-header);
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 1rem;
+}
