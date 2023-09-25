@@ -76,3 +76,14 @@
     font-weight: var(--bold);
     font-size: 1rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 57%;
+        margin: 3em auto;
+    }
+
+    .card__info__par {
+        font-size: 1rem;
+    }
+}
