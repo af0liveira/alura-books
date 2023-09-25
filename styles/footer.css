@@ -57,3 +57,10 @@ hr{
         text-decoration: none;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .footer__list {
+        border-left: 1px solid #858585;
+        padding-left: 1.25rem;
+    }
+}
