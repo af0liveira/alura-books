@@ -34,6 +34,7 @@
     background-image: url('../img/search.svg');
     background-repeat: no-repeat;
     background-position: 0;
+    background-size: auto 85%;
 }
 
 @media screen and (min-width: 1024px) {
@@ -48,4 +49,15 @@
     .banner__search::placeholder {
         font-size: 1rem;
     }
+}
+
+@media screen and (min-width: 1728px) {
+    .banner {
+        padding: 5.5em 0;
+    }
+
+    .banner__search {
+        width: 35%;
+    }
+
 }
