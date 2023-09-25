@@ -94,7 +94,6 @@
         <div class="swiper">
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
-
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
@@ -126,6 +125,10 @@
                     <img src='img/bookcover/Portugol.svg' alt='Livro Lógica de ProgramaçÃo com Portugol'>
                 </div>
             </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
 
         </div>
     </section>
@@ -188,6 +191,10 @@
                     <img src='img/bookcover/Portugol.svg' alt='Livro Lógica de ProgramaçÃo com Portugol'>
                 </div>
             </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
 
         </div>
     </section>
@@ -269,6 +276,18 @@
                 type: 'bullets',
                 position: 'initial',
                 clickable: true,
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            breakpoints: {
+                1024: {
+                    slidesPerView: 3.1,
+                    spaceBetween: 75,
+                },
             },
         });
     </script>
