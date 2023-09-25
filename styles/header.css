@@ -61,10 +61,8 @@
     text-transform: uppercase;
 }
 
-.container__title {
-    display: none;
-}
-
+.container__title,
+.container__text,
 .header-options {
     display: none;
 }
@@ -99,5 +97,30 @@
     .header-options__link {
         color: var(--black);
         text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .header {
+        padding: 0 2em;
+    }
+
+    .header-options {
+        margin-left: 2em;
+        margin-right: auto;
+    }
+
+    .container__link {
+        display: flex;
+        text-decoration: none;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 2em;
+    }
+
+    .container__text {
+        display: block;
+        font-size: 1.25rem;
+        color: var(--black);
     }
 }
