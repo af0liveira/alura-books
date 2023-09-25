@@ -7,8 +7,8 @@ hr{
 }
 
 .footer__par {
-    color: black;
-    font-weight: 400;
+    color: var(--black);
+    font-weight: var(--regular);
     font-size: 1rem;
     line-height: normal;
 }

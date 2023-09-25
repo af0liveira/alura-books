@@ -1,7 +1,7 @@
 .contact {
     display: flex;
     flex-direction: column;
-    background-color: var(--bg-color-header);
+    background-color: var(--white);
     padding: 1.5rem;
     line-height: normal;
     font-family: var(--main-font);
@@ -9,28 +9,28 @@
 
 .contact__title,
 .contact__par {
-    background: var(--menu-item-color);
+    background: var(--blue-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .contact__title {
-    font-weight: 500;
+    font-weight: var(--medium);
     font-size: 1.125rem;
 }
 
 .contact__par {
-    font-weight: 300;
+    font-weight: var(--light);
     font-size: 1rem;
     margin: 0.5rem 0 1.5rem 0;
 }
 
 .contact__mail {
-    --empty: var(--bg-color-header);
+    --empty: var(--white);
     width: inherit; 
     background: linear-gradient(var(--empty), var(--empty)) padding-box,
-                var(--menu-item-color) border-box;
+                var(--blue-gradient) border-box;
     border: 1px solid transparent;
     border-radius: 24px;
     padding: 0.6rem 1.5rem;
@@ -39,9 +39,8 @@
 }
 
 .contact__mail::placeholder {
-    color: #002f52;
+    color: var(--blue-primary);
     font-family: var(--main-font);
-    font-weight: 400;
     font-size: 1rem;
     padding: 2rem;
     background-image: url('../img/mail_black.svg');

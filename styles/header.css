@@ -8,7 +8,7 @@
 }
 
 .header {
-    background-color: var(--bg-color-header);
+    background-color: var(--white);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -29,8 +29,8 @@
 .menu-list {
     display: none;
     position: absolute;
+    background-color: var(--white);
     top: 100%;
-    background-color: var(--bg-color-header);
     width: 70vw;
 }
 
@@ -48,12 +48,12 @@
 }
 
 .menu-list__title {
-    color: var(--menu-title-color);
-    font-weight: 700;
+    color: var(--orange);
+    font-weight: var(--bold);
 }
 
 .menu-list__item__link {
-    background: var(--menu-item-color);
+    background: var(--blue-gradient);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

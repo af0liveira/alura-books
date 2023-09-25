@@ -8,18 +8,32 @@
 @import url('styles/footer.css');
 
 :root {
-    --bg-color: #ebecee;
-    --bg-color-header: #ffffff;
+    /* Colors */
+    --white: #ffffff;
+    --gray: #ebecee;
+    --orange: #eb9b00;
+    --blue-primary: #002f52;
+    --blue-secondary: #326589; 
+    --blue-gradient: linear-gradient(
+        98deg,
+        var(--blue-primary) 35.49%,
+        var(--blue-secondary) 165.37%
+    );
+    --black: rgba(0, 0, 0, 0.85);
 
-    --menu-title-color: #eb9b00;
-    --menu-item-color: linear-gradient(98deg, #002f52 35.49%, #326589 165.37%);
-
+    /* Font specs */
     --main-font: 'Poppins', sans-serif;
+    --regular: 400;
+    --light:   300;
+    --medium:  500;
+    --bold:    700;
+
 }
 
 body {
-    background-color: var(--bg-color);
+    color: var(--black);
+    background-color: var(--gray);
     font-family: var(--main-font);
-    font-weight: 400;
+    font-weight: var(--regular);
     font-size: 16px;
 }

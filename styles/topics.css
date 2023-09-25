@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: var(--menu-item-color);
+    background: var(--blue-gradient);
 }
 
 .topics__title {
-    color: var(--bg-color-header);
+    color: var(--white);
     text-align: center;
     text-transform: uppercase;
     font-family: var(--main-font);
-    font-weight: 300;
+    font-weight: var(--light);
     font-size: 1rem;
     line-height: normal;
     margin: 2rem;
@@ -28,12 +28,12 @@
 }
 
 .topics__link {
-    color: var(--bg-color-header);
-    background-color: var(--menu-title-color);
+    color: var(--white);
+    background-color: var(--orange);
     text-align: center;
     text-decoration: none;
     font-family: var(--main-font);
-    font-weight: 700;
+    font-weight: var(--bold);
     font-size: 0.875rem;
     padding: 1rem 1.5rem;
 }

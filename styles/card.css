@@ -1,7 +1,7 @@
 .card {
     display: flex;
     flex-direction: column;
-    background-color: var(--bg-color-header);
+    background-color: var(--white);
     margin: 1.25rem 0.8rem;
     border-radius: 10px;
     padding: 1rem;
@@ -33,24 +33,23 @@
 }
 
 .card__info__title {
-    color: var(--menu-title-color);
+    color: var(--orange);
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: var(--bold);
 }
 
 .card__info__book-title {
     color: #002f52;
     font-size: 1.125rem;
-    font-weight: 700;
+    font-weight: var(--bold);
 }
 
 .card__info__par {
     color: rgba(0, 0, 0, 0.85);
     font-size: 0.875rem;
-    font-weight: 400;
 }
 
-.card__media__img {}
+/* .card__media__img {} */
 
 .card__actions {
     display: flex;
@@ -71,9 +70,9 @@
     text-align: center;
     text-decoration: none;
     padding: 1rem 2.2rem;
-    background-color: var(--menu-title-color);
-    color: var(--bg-color-header);
+    background-color: var(--orange);
+    color: var(--white);
     font-family: var(--main-font);
-    font-weight: 700;
+    font-weight: var(--bold);
     font-size: 1rem;
 }
