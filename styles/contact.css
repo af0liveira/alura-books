@@ -46,3 +46,25 @@
     background-image: url('../img/mail_black.svg');
     background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 1024px) {
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .contact__description {
+        width: 32%;
+    }
+
+    .contact__title {
+        font-size: 1.5rem;
+    }
+
+    .contact__mail {
+        width: 32%;
+        /* margin: 0 auto; */
+    }
+}
