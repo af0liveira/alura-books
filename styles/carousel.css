@@ -100,6 +100,11 @@
     margin: 0 0.5rem;
 }
 
+.buttons__icon:active > img {
+    border-radius: 25%;
+    background-color: var(--orange);
+}
+
 .buttons__anchor {
     text-align: center;
     text-decoration: none;
@@ -109,6 +114,11 @@
     font-family: var(--main-font);
     font-weight: var(--bold);
     font-size: 1rem;
+}
+
+.buttons__anchor:active {
+    color: var(--gray);
+    box-shadow: 0 0 1px 1px var(--black);
 }
 
 .swiper-slide:active > a > img {
