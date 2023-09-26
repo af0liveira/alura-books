@@ -38,6 +38,11 @@
     padding: 1rem 1.5rem;
 }
 
+.topics__link:active {
+    color: var(--gray);
+    box-shadow: 0 0 1px 1px var(--white);
+}
+
 @media screen and (min-width: 1024px) {
     .topics__title {
         font-size: 1.5rem;
