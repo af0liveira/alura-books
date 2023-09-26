@@ -22,6 +22,10 @@
     align-items: center;
 }
 
+.container > .container__link:active {
+    background-color: var(--orange);
+}
+
 .container__img {
     padding: 1em;
 }
@@ -42,9 +46,21 @@
     display: block;
 }
 
+.container__button:checked ~ .container__label {
+    background: var(--blue-gradient);
+}
+
+.container__button:checked ~ .container__label > .header__hamburger-menu {
+    background-image: url('../img/menu-active.svg');
+}
+
 .menu-list__title,
 .menu-list__item{
     padding: 1rem 1.5rem;
+}
+
+.menu-list__item:active {
+    background-color: var(--orange);
 }
 
 .menu-list__title {
