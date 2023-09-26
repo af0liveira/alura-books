@@ -37,6 +37,11 @@
     background-size: auto 85%;
 }
 
+.banner__search:focus::placeholder {
+    color: transparent;
+    background-image: none;
+}
+
 @media screen and (min-width: 1024px) {
     .banner__title {
         font-size: 2.25rem;
