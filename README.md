@@ -22,7 +22,7 @@ This project is fully implemented with
 
 - HTML
 - CSS
-- SwiperJS
+- [SwiperJS](https://swiperjs.com/)
 
 ## Acknowledgements
 
