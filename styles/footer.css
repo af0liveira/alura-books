@@ -56,6 +56,15 @@ hr{
         color: #474646;
         text-decoration: none;
     }
+
+    .footer__list__link:hover {
+        text-shadow: 0 0 2px #858585;
+    }
+
+    .footer__list__link:active {
+        color: var(--orange);
+        text-shadow: 0 0 2px #858585;
+    }
 }
 
 @media screen and (min-width: 1728px) {
